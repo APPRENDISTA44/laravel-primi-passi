@@ -10937,3 +10937,21 @@ header a.navbar-brand img {
   width: 100%;
 }
 
+main {
+  margin-top: 50px;
+}
+
+footer {
+  padding: 30px;
+  background-color: #1b3c59;
+  height: 200px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
