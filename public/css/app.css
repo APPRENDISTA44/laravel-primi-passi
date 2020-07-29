@@ -10928,3 +10928,12 @@ a.text-dark:focus {
   }
 }
 
+header a.navbar-brand {
+  display: inline-block;
+  width: 200px;
+}
+
+header a.navbar-brand img {
+  width: 100%;
+}
+
