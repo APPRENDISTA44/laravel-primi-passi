@@ -39,7 +39,6 @@ return[
       'answer' => 'Il 100%. Tutti gli studenti che hanno terminato il corso hanno ricevuto
        una o più offerte di lavoro. Il nostro corso fornisce solide basi di programmazione ed essendo il mestiere del developer molto ricercato, le aziende sono sempre ben disposte ad assumere persone competenti e volenterose.'
     ]
-
   ]
 
 ];
