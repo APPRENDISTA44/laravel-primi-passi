@@ -20,3 +20,13 @@ Route::get('/', function () {
 Route::get('/policy', function () {
     return view('policy');
 }) -> name('policy');
+
+Route::get('/faq', function () {
+    $faqs_prima = config('faqs.lista_faqs_prima');
+    $faqs_dopo = config('faqs.lista_faqs_dopo');
+
+    return view('faq',[
+      'faqs_prima' => $faqs_prima,
+      'faqs_dopo' => $faqs_dopo
+    ]);
+}) -> name('faq');
